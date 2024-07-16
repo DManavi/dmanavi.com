@@ -1,0 +1,14 @@
+{
+  "name": "dmanavi.com",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+    "html-minifier-terser": "^7.2.0",
+    "nunjucks": "^3.2.4"
+  }
+}

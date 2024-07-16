@@ -1,0 +1,21 @@
+<footer id="footer" class="footer position-relative light-background">
+  <div class="container">
+    <h3 class="sitename">{{ resume.profile.firstName }}
+      {{ resume.profile.lastName }}</h3>
+    <div class="social-links d-flex justify-content-center">
+      {% for link in resume.social %}
+        <a href="{{ link.url }}" target="_blank">
+          <i class="bi {{ link.icon }}"></i>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <span>Copyright</span>
+        <strong class="px-1 sitename">{{ resume.profile.firstName }}
+          {{ resume.profile.lastName }}</strong>
+        <span>All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,23 @@
+<!-- Hero Section -->
+<section id="hero" class="hero section light-background">
+  <img src="assets/img/hero-bg.jpg" alt="">
+  <div class="container" data-aos="zoom-out">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <h2>{{ resume.profile.firstName }} {{ resume.profile.lastName }}</h2>
+        <p>I'm
+          <span class="typed" data-typed-items="{{ resume.profile.titles | join(', ') }}">{{ resume.profile.titles | first }}</span>
+          <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+        </p>
+        <div class="social-links">
+          {% for link in resume.social %}
+          <a href="{{ link.url }}" target="_blank">
+            <i class="bi {{ link.icon }}"></i>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Hero Section -->

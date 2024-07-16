@@ -1,0 +1,88 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.testimonials {
+
+  .testimonials-carousel,
+  .testimonials-slider {
+    overflow: hidden;
+  }
+
+  .testimonial-item {
+    .testimonial-content {
+      border-left: 3px solid var(--accent-color);
+      padding-left: 30px;
+    }
+
+    .testimonial-img {
+      border-radius: 50%;
+      border: 4px solid var(--background-color);
+      margin: 0 auto;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+    }
+
+    h4 {
+      font-size: 14px;
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+      margin: 0 0 10px 0;
+    }
+
+    .stars {
+      i {
+        color: #ffc107;
+        margin: 0 1px;
+      }
+    }
+
+    .quote-icon-left,
+    .quote-icon-right {
+      color: color-mix(in srgb, var(--accent-color), transparent 50%);
+      font-size: 26px;
+      line-height: 0;
+    }
+
+    .quote-icon-left {
+      display: inline-block;
+      left: -5px;
+      position: relative;
+    }
+
+    .quote-icon-right {
+      display: inline-block;
+      right: -5px;
+      position: relative;
+      top: 10px;
+      transform: scale(-1, -1);
+    }
+
+    p {
+      font-style: italic;
+    }
+  }
+
+  .swiper-wrapper {
+    height: auto;
+  }
+
+  .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: var(--accent-color);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{% set js %}
+<!-- Vendor JS Files -->
+{% include "./vendor/bootstrap/js/bootstrap.bundle.min.js" %}
+{% include "./vendor/aos/aos.js" %}
+{% include "./vendor/typed.js/typed.umd.js" %}
+{% include "./vendor/purecounter/purecounter_vanilla.js" %}
+{% include "./vendor/waypoints/noframework.waypoints.js" %}
+{% include "./vendor/glightbox/js/glightbox.min.js" %}
+{% include "./vendor/imagesloaded/imagesloaded.pkgd.min.js" %}
+{% include "./vendor/isotope-layout/isotope.pkgd.min.js" %}
+{% include "./vendor/swiper/swiper-bundle.min.js" %}
+<!-- Main JS File -->
+{% include "./js/main.js" %}
+{% endset %}
+<script>
+  {{ js | jsmin | safe }}</script>
+<!-- Google tag (gtag.js) -->
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-BSXZBHTM33"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'G-BSXZBHTM33');
+</script>

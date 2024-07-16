@@ -1,0 +1,11 @@
+{% set css %}
+<!-- Vendor CSS Files -->
+{% include "./vendor/bootstrap/css/bootstrap.min.css" %}
+{% include "./vendor/bootstrap-icons/bootstrap-icons.css" %}
+{% include "./vendor/aos/aos.css" %}
+{% include "./vendor/glightbox/css/glightbox.min.css" %}
+{% include "./vendor/swiper/swiper-bundle.min.css" %}
+<!-- Main CSS File -->
+{% include "./css/main.css" %}
+{% endset %}
+<style>{{css | safe}}</style>

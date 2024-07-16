@@ -1,0 +1,223 @@
+{
+  "profile": {
+    "firstName": "Danial",
+    "lastName": "Manavi",
+    "titles": [
+      "Software Engineer",
+      "Software Architect",
+      "Entrepreneur",
+      "Freelancer"
+    ],
+    "brief": "Seasoned software engineer with over 10 years of experience, specializing in bringing startup ideas to fruition. Proficient in TypeScript, JavaScript, Python, and C#, with extensive experience in NodeJS, React, and .NET frameworks. Adept at designing and implementing event-driven and microservices architectures, leveraging cloud platforms like AWS and Azure. Skilled in DevOps practices using Docker, AWS Code Pipeline, GitHub Actions, and Azure Pipelines. Proven track record in developing scalable, high-performance applications, optimizing databases, and integrating with third-party services through RESTful APIs.",
+    "address": "Vancouver, BC",
+    "email": "me@dmanavi.com"
+  },
+  "about": {
+    "headline": "Seasoned software engineer with over 10 years of experience, specializing in bringing startup ideas to fruition. Proficient in TypeScript, JavaScript, Python, and C#, with extensive experience in NodeJS, React, and .NET frameworks. Adept at designing and implementing event-driven and microservices architectures, leveraging cloud platforms like AWS and Azure. Skilled in DevOps practices using Docker, AWS Code Pipeline, GitHub Actions, and Azure Pipelines. Proven track record in developing scalable, high-performance applications, optimizing databases, and integrating with third-party services through RESTful APIs."
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dmanavi",
+      "icon": "bi-linkedin"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/dmanavi",
+      "icon": "bi-github"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://x.com/DaniManavi",
+      "icon": "bi-twitter-x"
+    },
+    {
+      "label": "Medium",
+      "url": "https://medium.com/@dmanavi",
+      "icon": "bi-medium"
+    },
+    {
+      "label": "Blog",
+      "url": "https://dmanavi.com/blog",
+      "icon": "bi-wordpress"
+    },
+    {
+      "label": "Stack Overflow",
+      "url": "https://stackoverflow.com/users/9296102/danial-manavi",
+      "icon": "bi-stack-overflow"
+    },
+    {
+      "label": "Youtube",
+      "url": "https://www.youtube.com/@dmanavi",
+      "icon": "bi-youtube"
+    },
+    {
+      "label": "Skype",
+      "url": "https://join.skype.com/invite/cRrF1ONnuVyi",
+      "icon": "bi-skype"
+    },
+    {
+      "label": "Telegram",
+      "url": "https://t.me/dmanavi",
+      "icon": "bi-telegram"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:me@dmanavi.com?subject=Hello",
+      "icon": "bi-envelope-at"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Clients Served",
+      "value": 30,
+      "icon": "bi-emoji-smile"
+    },
+    {
+      "label": "Projects Completed",
+      "value": 50,
+      "icon": "bi-journal-richtext"
+    },
+    {
+      "label": "Hours of Support",
+      "value": 40000,
+      "icon": "bi-headset"
+    }
+  ],
+  "skills": [
+    {
+      "label": "NodeJS",
+      "value": 100
+    },
+    {
+      "label": "React",
+      "value": 90
+    },
+    {
+      "label": "JavaScript & TypeScript",
+      "value": 100
+    },
+    {
+      "label": "C#",
+      "value": 90
+    },
+    {
+      "label": "Web Development",
+      "value": 100
+    },
+    {
+      "label": "Amazon Web Services",
+      "value": 100
+    },
+    {
+      "label": "Software Architecture",
+      "value": 90
+    },
+    {
+      "label": "Database Design",
+      "value": 90
+    },
+    {
+      "label": "DevOps",
+      "value": 85
+    },
+    {
+      "label": "System Administration",
+      "value": 80
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Sustainable Projects Group (SPG)",
+      "startDate": "2020-09",
+      "endDate": "Present",
+      "location": "Vancouver, BC",
+      "tasks": [
+        "Lead developer of JOBI, a hybrid solution providing insights into energy consumption.",
+        "Designed and deployed micro-services architecture on AWS to serve clients across Canada.",
+        "Integrated with 3rd party service providers, creating an autonomous data processing pipeline.",
+        "Developed event-driven architecture for background tasks and synchronization."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Softmax Data",
+      "startDate": "APR 2020",
+      "endDate": "AUG 2020",
+      "location": "Vancouver, BC",
+      "tasks": [
+        "Developed a RESTful API over AI models for data processing and lead generation.",
+        "Implemented an event-driven architecture for improved response times.",
+        "Deployed micro-services using AWS SQS and SNS for seamless integration."
+      ]
+    },
+    {
+      "title": "Integration Developer",
+      "company": "Robust Choice",
+      "startDate": "DEC 2019",
+      "endDate": "MAR 2020",
+      "location": "Vancouver, BC",
+      "tasks": [
+        "Connected Sniper product with 3rd party services using RESTful APIs.",
+        "Integrated with iPaaS platforms (Zapier and Power Automate) for data synchronization.",
+        "Developed APIs integrated with oAuth2.0 for secure data access."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Softmax Data",
+      "startDate": "MAR 2019",
+      "endDate": "OCT 2019",
+      "location": "Vancouver, BC",
+      "tasks": [
+        "Worked on a micro-service architecture solution for data processing and lead generation.",
+        "Optimized databases for large data inserts and developed APIs for data deduplication.",
+        "Deployed scalable solutions on AWS, significantly increasing lead generation and connect-through rates."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Delecta Technologies",
+      "startDate": "DEC 2018",
+      "endDate": "MAY 2019",
+      "location": "Vancouver, BC",
+      "tasks": [
+        "Designed, implemented, tested, and deployed Steer, a web-based work management tool.",
+        "Utilized Google Cloud Platform (GCP) to host the application.",
+        "Leveraged Firebase for authentication, file storage, and database management."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Robust Choice",
+      "startDate": "OCT 2013",
+      "endDate": "AUG 2018",
+      "location": "Vancouver, BC",
+      "tasks": [
+        "Designed and implemented end-to-end solutions using C#, NodeJS, and Python.",
+        "Deployed solutions on Azure, AWS, and Google Cloud, following micro-services architecture.",
+        "Worked on various projects including Tagdit.com, CityPlus.io, DecisionHub, and SedaScore.ca."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "major": "IT / Web Development",
+      "school": "UAST",
+      "startDate": "2015",
+      "endDate": "2017",
+      "description": "A-series GPA in all computer-related topics"
+    },
+    {
+      "degree": "Advanced Diploma",
+      "major": "Software Engineering",
+      "school": "UAST",
+      "graduation": "2018",
+      "startDate": "2011",
+      "endDate": "2014",
+      "description": "Leader of the ACM team. 1st place in ACM, 2nd place in ACM"
+    }
+  ]
+}

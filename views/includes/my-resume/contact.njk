@@ -1,0 +1,34 @@
+<!-- Contact Section -->
+<section
+  id="contact" class="contact section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+  </div>
+  <!-- End Section Title -->
+  <div class="container" data-aos="fade" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div>
+            <h3>Address</h3>
+            <p>{{ resume.profile.address }}</p>
+          </div>
+        </div>
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email Me</h3>
+            <p>{{ resume.profile.email }}</p>
+          </div>
+        </div>
+        <!-- End Info Item -->
+      </div>
+      <div class="col-lg-8">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/dmanavi?hide_gdpr_banner=1" style="height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+      </section>
+      <!-- /Contact Section -->
